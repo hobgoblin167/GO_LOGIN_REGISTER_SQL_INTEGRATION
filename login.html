@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Вход</title>
+    <style>
+        body { 
+            font-family: Arial; 
+            max-width: 320px; 
+            margin: 50px auto; 
+            text-align: center;
+        }
+
+        h2 { 
+            margin-bottom: 20px; 
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btn-login {
+            background: #4CAF50;
+        }
+
+        .btn-register {
+            background: crimson;
+        }
+
+        .link-block {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Вход</h2>
+
+    <form action="/login" method="POST">
+        <label>Имя пользователя:</label>
+        <input type="text" name="username" required>
+
+        <label>Пароль:</label>
+        <input type="password" name="password" required>
+
+        <button class="btn btn-login" type="submit">Войти</button>
+    </form>
+
+    <div class="link-block">
+        <form action="/registerweb" method="POST">
+            <p>Нет аккаунта?</p>
+            <button class="btn btn-register" type="submit">Зарегистрируйтесь</button>
+        </form>
+    </div>
+
+</body>
+</html>
