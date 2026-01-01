@@ -25,4 +25,4 @@
 
 ---
 
-Переработанный и более правильный код на Go можно посмотреть здесь - https://github.com/hobgoblin167/FULLSTACK_GO_x_ReactNative_Application
+Переработанный и более правильный код на Go (с передачей JSON ) можно посмотреть здесь - https://github.com/hobgoblin167/FULLSTACK_GO_x_ReactNative_Application
